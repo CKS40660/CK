@@ -99,7 +99,7 @@ function dispalyGreetings(today){
         else if (hrs >= 12 && hrs <= 17)
             greet = '嗨嗨 '+name;
         else if (hrs >= 17 && hrs <= 24)
-            greet = 'Good Evening  '+name;
+            greet = '晚安  '+name;
         document.getElementById('greet').innerHTML = greet;
 
     }
@@ -107,15 +107,15 @@ function dispalyGreetings(today){
     function dispalyDate(today) {  
        
         const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
+        const monthNames = ["01", "02", "03", "04", "05", "06",
+  "07", "08", "09", "10", "11", "12"
 ];
 
         var dayName = days[today.getDay()];
         var monthName = monthNames[today.getMonth()];
         var date = today.getDate();
         var year = today.getFullYear();
-        document.getElementById('date').innerHTML =year+"/"+monthName+"/"+date+", "+dayName;
+        document.getElementById('date').innerHTML =monthName+"/"+date+", "+dayName;
     }
 
 
