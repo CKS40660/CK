@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    <a href="https://www.bbc.com/"><img src="第一次作業/BBC.png" alt="主頁連結"></a>
+    <nav>
+        <a href="https://www.bbc.com/">Home</a>
+        <a href="https://www.bbc.com/news">News</a>
+        <a href="https://www.bbc.com/sport">Sport</a>
+        <a href="https://www.bbc.com/reel">Reel</a>
+        <a href="https://www.bbc.com/worklife">Worklife</a>
+        <a href="https://www.bbc.com/travel">Travel</a>
+        <a href="https://www.bbc.com/future">Future</a>
+    </nav>
+   </div>
+   <div>
+        <h1>Welcom to BBC.com</h1>
+        <!-- 時間戳章不會弄先成文字塊 --><h2>Saturday, 8 July</h2>
+        <a href="https://www.bbc.com/news/world-us-canada-66140460"><img src="第一次作業/Ukraine.jpg" width="400"></a>
+        <figcaption><h2>Biden defends sending cluster bombs to Ukraine</h2>The weapons have a record of killing civilians - and the president said sending them was a difficult decision.<br><a href="https://www.bbc.com/news/world/us_and_canada">US & CANADA</a></figcaption>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.bbc.com/news/world-europe-66133527"><img src="第一次作業/weapons.jpg" width="200"></a>
+                    <h2>Why is US giving Ukraine'abhorrent'weapons?</h2>
+                    <a href="https://www.bbc.com/news/world/europe">EUROPE</a>
+                </td>
+                <td>
+                    <a href="https://www.bbc.com/news/world-europe-66133676"><img src="第一次作業/dutch.jpg" width="200"></a>
+                    <h2>Dutch government collapses over asylum row</h2>
+                    <a href="https://www.bbc.com/news/world-europe-66139789">EUROPE</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.bbc.com/sport/live/cricket/64959135"><img src="第一次作業/cricket.jpg" width="200"></a>
+                    <h2>Ashes nwes: Build-up to crucial of third England-Australia Test</h2>
+                    <a href="https://www.bbc.com/sport/cricket">CRICKET</a>
+                </td>
+                <td>
+                    <a href="https://www.bbc.com/news/world-europe-66139789"><img src="第一次作業/europe.png" width="200"></a>
+                    <h2>Can France prevent tensions igniting again?</h2>
+                    <a href="https://www.bbc.com/news/world-europe-66139789">EUROPE</a>
+                </td>
+            </tr>
+        </table>
+   </div>
+   <div>
+        <h1>News</h1>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.bbc.com/news/world-us-canada-66129605"><img src="第一次作業/Nocharges.jpg" width="400"></a>
+                    <b>No charges for security who blocked Britney Spears</b><br>The pop star says the incident near a restaurant in Las Vegas was a "traumatic experience".
+                    <br><a href="https://www.bbc.com/news/world/us_and_canada">US & CANADA</a>
+                </td>
+                <td>
+                    <a href="https://www.bbc.com/news/world-europe-66140699"><img src="第一次作業/belaus camp.jpg" width="400"></a>
+                    <b>BBC visits Belarus camp offered to Wagner</b><br>Russia editor Steve Rosenberg says that, so far, only Belarusian troops appear to be on the site.
+                    <br><a href="https://www.bbc.com/news/world-europe-66139789">EUROPE</a>
+                </td>
+                <td>
+                    <a href="https://www.bbc.com/news/world-asia-66043946"><img src="第一次作業/Skorea.jpg" width="400"></a>
+                    <b>Pressure builds on S Korea to send Ukraine stockpiled ammo</b><br>Seoul is sitting on one of the world/s biggest ammunition stockpiles but is reluctant to give it away.
+                    <br><a href="https://www.bbc.com/news/world/asia">ASIA</a>
+                </td>
+            </tr>
+        </table>
+   </div>
+</body>
+</html>
