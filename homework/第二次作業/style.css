@@ -1,0 +1,101 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    background-color: #0099ff;
+    color:#fff;     
+    margin-left: 20px;
+    }
+.out-wrapper{
+    width: 1080px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+}
+/* 最上層首頁 */
+.home{
+    width: 1080px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.home a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.logo-img{
+    width: 30px;
+    margin-right: 5px;
+}
+/* 中間 */
+.middle{
+    width: 1080px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 600px;
+    height: 600px;
+    vertical-align: top;
+}
+.text:before{
+    content: "";
+    display: inline-block;
+    width: 0px;
+    height: 250px;
+    vertical-align: middle;
+}
+.title{
+    font-size: 35px;
+    margin-bottom: 5px ;
+}
+.comment{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.download{
+    display: flex;
+    margin-left: 50px;
+}
+.download-img{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+/* 右側圖 */
+.demo{
+    width: 400px;
+    height: 600px;
+}
+.demo-img{
+    height: 600px   ;
+    border-radius: 8px;
+}
+/* 導覽列 */
+.nav{
+    background-color:	#005AB5;
+    margin-top:10px;
+    width:1080px;
+}
+.lang{
+    padding: 10px 20px;
+    text-align: center;
+}
+.lang a{
+    padding: 6px 15px;
+    color: #fff;
+    text-decoration:none;
+    display: inline-block;
+}
+.lang-img{
+    width: 20px;
+    margin: 0px 5px;
+    border-radius: 20px;
+}
