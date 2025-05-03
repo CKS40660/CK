@@ -1,0 +1,50 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Send Daily Journal to Notion via n8n",
+    "description": "\u5c07 GPT \u5beb\u597d\u7684\u65e5\u8a18\uff08\u5305\u542b\u65e5\u671f\u8207\u5167\u5bb9\uff09\u9001\u5230 n8n webhook\uff0c\u81ea\u52d5\u8cbc\u5165 Notion",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://ck-n8n.duckdns.org/webhook-test"
+    }
+  ],
+  "paths": {
+    "/gpts-daily-journal": {
+      "post": {
+        "operationId": "sendToNotion",
+        "summary": "\u50b3\u9001\u65e5\u8a18\u5230 n8n workflow",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "date": {
+                    "type": "string",
+                    "description": "\u65e5\u8a18\u7684\u65e5\u671f\uff0c\u683c\u5f0f\u70ba YYYY-MM-DD"
+                  },
+                  "content": {
+                    "type": "string",
+                    "description": "GPT \u8f38\u51fa\u7684\u65e5\u8a18\u5168\u6587"
+                  }
+                },
+                "required": [
+                  "date",
+                  "content"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "\u6210\u529f"
+          }
+        }
+      }
+    }
+  }
+}
